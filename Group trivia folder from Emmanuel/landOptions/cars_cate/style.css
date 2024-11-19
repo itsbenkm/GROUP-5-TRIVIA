@@ -1,0 +1,104 @@
+body {
+
+  
+    background-color: rgb(111, 117, 20);
+    background-size: cover;
+
+    animation-name: example;
+    animation-duration: 2s;
+
+
+  }
+/* CSS FOR THE QUESTION AND ANSWER */
+  .app {
+    background: rgb(110, 86, 5);
+    width: 90%;
+    max-width: 600px;
+    margin: 100px auto 0;
+    border-radius: 10px;
+    padding: 30px;
+    box-shadow: 50px 10px 50px 10px black;
+  }
+
+/*HEADING OF THE QUESTION AND ANSWER SECTION*/
+  .app h1 {
+    font-size: 25px;
+    color: #001e4d;
+    font-weight: 600;
+    border-bottom: 1px solid #333;
+    padding-bottom: 30px;
+  }
+
+/*CSS FOR THE QUIZ DIV*/
+  .quiz {
+    padding: 50px;
+    margin: 10px;
+    display: block;
+    text-align: center;
+  }
+
+
+/*CSS FOR THE QUESTION AREA*/
+  #question {
+    text-align: left;
+    padding: 0;
+    margin-left: 0;
+  }
+
+/*CSS FOR THE QUESTION ITSELF WHICH IS A H2 TAG*/
+  .quiz h2 {
+    font-size: 18px;
+    color: #001e4d;
+    font-weight: 600;
+  }
+
+/* CSS FOR BUTTON */
+  .btn {
+    background: white;
+    color: #222;
+    font-weight: 500;
+    width: 100%;
+    border: 1px solid #222;
+    padding: 10px;
+    margin: 10px 0;
+    text-align: left;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 0.3s;
+  }
+  .btn:hover {
+    background: blue;
+    color: #fff;
+  }
+  #next-btn {
+    background: blue;
+    color: white;
+    font-weight: 500;
+    width: 150px;
+    border: 0;
+    padding: 10px;
+    margin: 20px auto o;
+    border-radius: 4px;
+    cursor: pointer;
+    display: none;
+  }
+
+/*CSS FOR CORRENCT AND INCORRECT*/
+  .correct {
+    background: green;
+  }
+  .incorrect {
+    background: red;
+  }
+
+/*CSS ANIMATION FUNCTION DECLARATION*/
+  @keyframes example {
+    0%   {background-image :linear-gradient(90deg #fae2d7,rgb(122, 95, 122)); left:0px; top:0px;}
+    25%  {background-image :linear-gradient(43deg #000080, #000512); left:1000px; top:0px;}
+    50%  {background-color: antiquewhite; opacity:50%; left:0px; buttom:10px;}
+    75% { background-image: linear-gradient(180deg black , rgb(192, 97, 97)); left: 100px; bottom: 50px;}
+    100% { background-color: purple;  opacity: 75%; left: 10px; top: 0px;}
+
+
+    
+}
