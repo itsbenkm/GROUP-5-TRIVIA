@@ -7,8 +7,8 @@ body{
     animation-duration: 1s;
     animation-delay: 2s;
     animation-direction: reverse;
-    
-   
+    display: flex;
+    grid: 20%;
 
 
    
@@ -53,6 +53,7 @@ body{
 }
 
 .upper{
+    align-items: left;
     box-shadow:10px 10px 10px #000;
     -webkit-box-shadow:10px 10px 10px #000;
     -moz-box-shadow: 10px 10px 10px #b683a2
@@ -64,33 +65,36 @@ body{
     position: relative;
     animation-name: example;
     animation-duration: 2s;
+    padding-right: 50px;
   
 }
 
 .upper:hover {
-    border-radius: 50px;
+    background-image: linear-gradient(to right, violet, antiquewhite)
 }
 
  
 
 .upper h1{
-    font-family: "Roboto", sans-serif;
-    font-weight: 500;
+    font-family: "roboto", 'Times New Roman';
+    font-weight: 400;
     font-size: 3vw;
-    font-style: bold;
-    text-align: Center;
+    text-align: left;
+
+
+
     padding-left: 50px ;
     padding-top: 50px;
     padding-bottom: 50px;
     margin-bottom: 5px;
-    color: rgb(0, 0, 0);
-    border: 2px violet groove;
+    color: rgb(41, 0, 39);
+    border-bottom: 2px black dashed;
     border-radius: 30px;
 
 }
 
 .upper p{
-    font-family: "Roboto", sans-serif;
+    font-family: "Roboto";
     font-size: 2vm;
     text-align: left;
     padding-left: 50px ;
@@ -138,7 +142,7 @@ body{
 }
 
 .opts {
-    margin-top: 50px;
+    margin-top: 30px;
     
  
 }
@@ -148,9 +152,11 @@ option {
     text-decoration: none;
     background-color: violet;
     border-radius: 5px;
+    margin-right: 10vm;
 
 }
 button {
+    margin-top: 120px;
     text-decoration: none;
     border-radius: 10px;
     width: 150px;
@@ -171,10 +177,10 @@ select {
     background-color: #000;
     color: antiquewhite;
     font-family: "Roboto", sans-serif;
-    font-size: 18px;        
+    font-size: 1rem;        
     padding: 10px;          
-    width: 4vm;           
-    height: 1vm;         
+    width: 90%;           
+    height: fit-content;         
 }
 
 /* Increase the size of the options in the dropdown */
