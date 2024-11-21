@@ -5,8 +5,9 @@ function checkSelection() {
     // Use an if statement to check the selected value
     if (selectedCate == "fashion") {
       window.open("fashion/index.html", "_self");
-    } else if (selectedCate == "art") {
-      alert("You selected Saab!");
+    } else if (selectedCate == "geography") {
+      window.open("geography/index.html", "_self");
+      
     } else if (selectedCate == "geography") {
       alert("You selected Mercedes!");
     } else if (selectedCate == "cars") {
