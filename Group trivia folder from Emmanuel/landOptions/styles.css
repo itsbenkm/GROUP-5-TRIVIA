@@ -166,15 +166,15 @@ button:hover {
 }
 
 select {
-    margin-left: -500px;
+
     border-radius: 10px;
     background-color: #000;
     color: antiquewhite;
     font-family: "Roboto", sans-serif;
     font-size: 18px;        
     padding: 10px;          
-    width: 250px;           
-    height: 40px;         
+    width: 4vm;           
+    height: 1vm;         
 }
 
 /* Increase the size of the options in the dropdown */
