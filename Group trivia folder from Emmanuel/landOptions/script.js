@@ -8,11 +8,11 @@ function checkSelection() {
     } else if (selectedCate == "geography") {
       window.open("geography/index.html", "_self");
       
-    } else if (selectedCate == "geography") {
-      alert("You selected Mercedes!");
+    } else if (selectedCate == "art") {
+      window.open("art/index.html","_self");
     } else if (selectedCate == "cars") {
         // Open the local file using a relative path
-        window.open("cars_cate/index.html", "_self");
+        window.open("cars/index.html", "_self");
     } else {
       alert("Please select a category!");
     }
