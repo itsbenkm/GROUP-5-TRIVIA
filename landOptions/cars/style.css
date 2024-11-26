@@ -1,14 +1,13 @@
 
    body {
-    background-image: url(Urus.jpg),
-    linear-gradient(to right, #FFD1CC, #634a47);
-    background-size: cover;
-    background-blend-mode: overlay;
-    
-    animation-name: example;
-    animation-duration: 2s;
-    color: #1976D2;
-    display: flex;
+    background: linear-gradient(to right, #FFD1CC, #634a47), url('Urus.jpg');
+  background-size: cover;
+  background-blend-mode: overlay;
+
+  animation-name: example;
+  animation-duration: 2s;
+  color: #1976D2;
+  display: flex;
 }
 
 
