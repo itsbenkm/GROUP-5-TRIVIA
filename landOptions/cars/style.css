@@ -1,15 +1,6 @@
-body {
 
-  
-    background-color: rgb(111, 117, 20);
-    background-size: cover;
-    background-image: url(Urus.jpg);
-    background-blend-mode:multiply;
-
-    
-    linear-gradient(to right, #FFD1CC, #634a47);
-    
-    
+   body {
+    background-image: url(Urus.jpg),
     linear-gradient(to right, #FFD1CC, #634a47);
     background-size: cover;
     background-blend-mode: overlay;
@@ -18,9 +9,10 @@ body {
     animation-duration: 2s;
     color: #1976D2;
     display: flex;
+}
 
 
-  }
+  
 /* CSS FOR THE QUESTION AND ANSWER */
   .app {
   
