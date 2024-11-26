@@ -1,4 +1,5 @@
-  body {
+
+body {
   background: linear-gradient(to right, #FFD1CC, #634a47), url('image_2024-11-27_002427585.png');
   background-size: cover;
   background-blend-mode: overlay;
@@ -36,7 +37,7 @@
     font-weight: 10;
     border-bottom: 1px solid #333;
     padding-bottom: 30px;
-    color: #1976D2;
+    color: #e9f904;
   }
   .quiz {
     padding: 50px;
@@ -48,13 +49,13 @@
     text-align: left;
     padding: 0;
     margin-left: 0;
-    color: #1976D2;
+    color: #e9f904;
   }
   .quiz h2 {
     font-family: Arial, sans-serif;
     font-weight: 5;
     font-size: 22px;
-    color: #1976D2;
+    color: #e9f904;
 
    
   }
@@ -94,6 +95,7 @@
   .incorrect {
     background: rgb(145, 16, 16);
   }
+
 
 
 
