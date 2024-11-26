@@ -45,6 +45,9 @@ body {
     padding: 0;
     margin-left: 0;
     color: aliceblue;
+    border-radius: 5px;
+    background-color: grey;
+    color: antiquewhite;
   }
   .quiz h2 {
     font-family: Arial, sans-serif;
