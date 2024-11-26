@@ -1,12 +1,8 @@
 body {
     background-image: url(landOptions/art/art.jpeg);
-    background-color: red;
-    background-size: cover;
-    background-blend-mode: overlay;
-    color: #1976D2;
-    display: flex;
+
 }
-  .app {
+.app {
 
     background:  #FFD1CC;
     width: 90%;
@@ -22,8 +18,8 @@ body {
     border: 1px solid rgba(255, 255, 255, 0.3); /* Subtle border */
     color: #fff; /* Text color */
     text-align: center;
-  }
-  .app h1 {
+}
+.app h1 {
     letter-spacing: 5px;
     font-family: Arial, sans-serif;
     font-size: 40px;
@@ -31,28 +27,28 @@ body {
     border-bottom: 1px solid #333;
     padding-bottom: 30px;
     color: #1976D2;
-  }
-  .quiz {
+}
+.quiz {
     padding: 50px;
     margin: 10px;
     display: block;
     text-align: center;
-  }
-  #question {
+}
+#question {
     text-align: left;
     padding: 0;
     margin-left: 0;
     color: #1976D2;
-  }
-  .quiz h2 {
+}
+.quiz h2 {
     font-family: Arial, sans-serif;
     font-weight: 5;
     font-size: 22px;
     color: #1976D2;
 
-   
-  }
-  .btn {
+
+}
+.btn {
     background: #E3F2FD;
     font-size:16px;
     color: #222;
@@ -65,12 +61,12 @@ body {
     border-radius: 4px;
     cursor: pointer;
 
-  }
-  .btn:hover {
+}
+.btn:hover {
     background: blue;
     color: #fff;
-  }
-  #next-btn {
+    }
+    #next-btn {
     background: blue;
     color: white;
     font-weight: 500;
@@ -81,13 +77,13 @@ body {
     border-radius: 4px;
     cursor: pointer;
     display: none;
-  }
-  .correct {
+}
+.correct {
     background: rgb(13, 255, 13);
-  }
-  .incorrect {
+}
+.incorrect {
     background: rgb(145, 16, 16);
-  }
+}
 
 
 
