@@ -8,6 +8,7 @@ body {
 
     animation-name: example;
     animation-duration: 2s;
+    linear-gradient(to right, #FFD1CC, #634a47);
 
 
   }
