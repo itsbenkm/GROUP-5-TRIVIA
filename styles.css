@@ -3,6 +3,7 @@ body{
     background-image: linear-gradient(90deg, violet, rgb(61, 12, 63));
     border-radius: 9px;
     position: relative;
+    
 
    
 
@@ -104,9 +105,7 @@ body{
 @keyframes example {
     0%   {background-image :linear-gradient(90deg #fae2d7,rgb(122, 95, 122)); left:0px; top:0px;}
     25%  {background-image :linear-gradient(43deg #000080, #000512); left:1000px; top:0px;}
-    50%  {background-color: antiquewhite; opacity:50%; left:0px; buttom:10px;}
-    75% { background-image: linear-gradient(180deg black , rgb(192, 97, 97)); left: 100px; bottom: 50px;}
-    100% { background-color: antiquewhite; opacity: 75%; left: 10px; top: 0px;}
+
 
 
     
