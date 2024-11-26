@@ -1,5 +1,5 @@
 body {
-    background-image: url(art.jpeg),
+    background-image: url(art.jpeg);
     linear-gradient(to right, #FFD1CC, #634a47);
     background-size: cover;
     background-blend-mode: overlay;
