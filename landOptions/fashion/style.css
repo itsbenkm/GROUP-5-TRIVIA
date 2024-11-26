@@ -33,7 +33,8 @@ body {
     font-weight: 10;
     border-bottom: 1px solid #333;
     padding-bottom: 30px;
-    color: antiquewhite;
+    background-color: white;
+    color: black;
   }
   .quiz {
     padding: 50px;
