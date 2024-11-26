@@ -2,6 +2,8 @@ body {
     background-image: url(landOptions/art/art.jpeg);
     background-size: cover;
     background-blend-mode: overlay;
+    backdrop-filter: blur(5px);
+
     
     animation-name: example;
     animation-duration: 2s;
