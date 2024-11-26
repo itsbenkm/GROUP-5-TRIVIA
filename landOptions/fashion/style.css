@@ -2,7 +2,7 @@
 body {
   background: url('photo.avif');
 
-  color: #1976D2;
+  color: antiquewhite;
   display: flex;
 }
 
@@ -33,7 +33,7 @@ body {
     font-weight: 10;
     border-bottom: 1px solid #333;
     padding-bottom: 30px;
-    color: #e9f904;
+    color: antiquewhite;
   }
   .quiz {
     padding: 50px;
@@ -51,7 +51,7 @@ body {
     font-family: Arial, sans-serif;
     font-weight: 5;
     font-size: 22px;
-    color: #e9f904;
+    color: antiquewhite;
 
    
   }
