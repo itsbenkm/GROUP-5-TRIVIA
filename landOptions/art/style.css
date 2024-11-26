@@ -3,6 +3,7 @@ body {
 
 
     background-size: cover;
+     linear-gradient(to right, #FFD1CC, #634a47);
 
     animation-name: example;
     animation-duration: 2s;
