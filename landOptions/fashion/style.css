@@ -1,11 +1,7 @@
 
 body {
-  background: linear-gradient(to right, #FFD1CC, #634a47), url('ss.jpeg');
-  background-size: cover;
-  background-blend-mode: overlay;
+  background: url('ss.jpeg');
 
-  animation-name: example;
-  animation-duration: 2s;
   color: #1976D2;
   display: flex;
 }
