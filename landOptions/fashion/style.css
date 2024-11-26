@@ -1,14 +1,16 @@
 body {
-     background-image: linear-gradient(to right,  #FFD1CC ,  #634a47);
-
-
+    background-image: 
+        url('https://images.pexels.com/photos/1884584/pexels-photo-1884584.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'),
+        linear-gradient(to right, #FFD1CC, #634a47);
     background-size: cover;
-
+    background-blend-mode: overlay; /* Ensures gradient blends well with the image */
+    
     animation-name: example;
     animation-duration: 2s;
     color: #1976D2;
     display: flex;
-     background-image: url (https://images.pexels.com/photos/1884584/pexels-photo-1884584.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1)
+}
+
 
 
   }
