@@ -1,13 +1,11 @@
 
    body {
-    background: linear-gradient(to right, #FFD1CC, #634a47), url('Urus.jpg');
-  background-size: cover;
-  background-blend-mode: overlay;
+    background: url('Urus.jpg');
+    background-size: cover;
+    background-blend-mode: overlay;
 
-  animation-name: example;
-  animation-duration: 2s;
-  color: #1976D2;
-  display: flex;
+    color: #1976D2;
+    display: flex;
 }
 
 
@@ -15,7 +13,7 @@
 /* CSS FOR THE QUESTION AND ANSWER */
   .app {
   
-    background-image: linear-gradient(to left, rgb(110, 86, 5), rgb(219, 210, 178));
+    background-image: linear-gradient(to left, lightyellow, rgb(219, 210, 178));
     width: 90%;
     max-width: 600px;
     margin: 100px auto 0;
