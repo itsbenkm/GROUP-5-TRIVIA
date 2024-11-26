@@ -1,17 +1,14 @@
 body {
-     background-image: linear-gradient(to right,  #FFD1CC ,  #634a47);
-
-
+    background-image: url(art.jpeg),
+    linear-gradient(to right, #FFD1CC, #634a47);
     background-size: cover;
-     linear-gradient(to right, #FFD1CC, #634a47);
-
+    background-blend-mode: overlay;
+    
     animation-name: example;
     animation-duration: 2s;
     color: #1976D2;
     display: flex;
-
-
-  }
+}
   .app {
 
     background:  #FFD1CC;
